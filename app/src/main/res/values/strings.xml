@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AppLogin</string>
+    <string name="nao_tem_uma_conta_crie_uma">Não tem uma conta? <u>Crie uma</u>.</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="nome_de_usuario">Nome de Usuário</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha_2">Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>

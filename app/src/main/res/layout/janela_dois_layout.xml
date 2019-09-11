@@ -18,15 +18,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="35dp"
-            android:src="@drawable/um" />
+            android:src="@drawable/logo" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/borda"
-            android:drawableRight="@drawable/ic_person"
-            android:hint="Nome de Usuário"
+            android:drawableEnd="@drawable/ic_person"
+            android:hint="@string/nome_de_usuario"
             android:inputType="text"
             android:padding="10dp"
             android:textColorHint="#FFF"
@@ -37,8 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/borda"
-            android:drawableRight="@drawable/ic_mail"
-            android:hint="E-mail"
+            android:drawableEnd="@drawable/ic_mail"
+            android:hint="@string/e_mail"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="#FFF"
@@ -49,8 +49,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/borda"
-            android:drawableRight="@drawable/ic_lock"
-            android:hint="Senha"
+            android:drawableEnd="@drawable/ic_lock"
+            android:hint="@string/senha"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="#FFF"
@@ -61,8 +61,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="35dp"
             android:background="@drawable/borda"
-            android:drawableRight="@drawable/ic_lock"
-            android:hint="Confirmar Senha"
+            android:drawableEnd="@drawable/ic_lock"
+            android:hint="@string/confirmar_senha"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="#FFF"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@drawable/bordatwo"
-            android:text="Cadastrar"
+            android:text="@string/cadastrar"
             android:textColor="#FFF" />
     </LinearLayout>
 
